@@ -144,6 +144,8 @@ li{
         align-items: center;
     }
     .img-profile{
+        width: 160px;
+        height: 160px;
         align-self: center;
     }
     .content h3{
@@ -172,6 +174,9 @@ li{
     .title-data{
         display: flex;
         flex-direction: column;
+    }
+    .foot-content{
+        font-size: 20px;
     }
 
 }
