@@ -15,7 +15,6 @@
     margin-top: 60px;
 }
 .header .container{
-    padding: 179px 165px 171px 165px;
 }
 .content{
     margin: 0 auto;
@@ -144,6 +143,9 @@ li{
         flex-direction: column-reverse;
         align-items: center;
     }
+    .img-profile{
+        align-self: center;
+    }
     .content h3{
         font-size: 14px;
     }
@@ -155,7 +157,7 @@ li{
     }
     .left-colum{
         width: 100%;
-        
+        align-self: center;
     }
     .rigth-colum{
         justify-content: center;
