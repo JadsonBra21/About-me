@@ -143,8 +143,15 @@ li{
         width: 100%;
         flex-direction: column-reverse;
         align-items: center;
-    }.content h2{
-        
+    }
+    .content h3{
+        font-size: 14px;
+    }
+    .content h2{
+        font-size: 56px;
+    }
+    .content .btn{
+        font-size: 18px;
     }
     .left-colum{
         width: 100%;
