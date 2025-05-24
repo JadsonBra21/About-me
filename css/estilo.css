@@ -1,8 +1,23 @@
+:Root{
+    /* --- colors --- */
+    --color-style:#0699A6;
+    --background-div:#F5F3F0;
+    --title-color: #0699A6;
+    --backgroud-main: #333;
+    --ligth-color: #fff;
+    --text-color: #bdbdbd;
+
+    
+}
+body{
+    background-color: var(--backgroud-main);
+    color: var(--text-color);
+}
 .header{
     width: 100%;
     height: auto;
     padding: 26px;
-    background: #F5F3F0;
+    background: var(--color-style);
 }
 .container{
     width: 1024px;
@@ -20,28 +35,36 @@
     margin: 0 auto;
     margin-left: 30px;
 }
+h2{
+    color: var(--ligth-color);
+}
 h3{
     font-size: 18px;
-    color: #9E8C6C;
+    color: var(--title-color);
+}
+.content h3{
+    font-size: 18px;
+    color: var(--ligth-color);
 }
 .content h2{
     font-size: 126px;
     margin-top: -20px;
     margin-bottom: 15px;
+    color: var(--backgroud-main);
 }
 .btn{
     text-decoration: none;
 
 }
 .content .btn{
-    background-color: #0699A6;
+    background-color: var(--ligth-color);
     padding: 16px 42px;
-    color: #ffff;
+    color: var(--backgroud-main);
 }
 .content .btn:hover{
-    background-color: #ffff;
-    border: 1.5px solid #0699A6;
-    color: #0699A6;
+    background-color: var(--backgroud-main);
+    border: 1.5px solid var(--color-style);
+    color: var(--title-color);
     font-weight: 300;
 }
 .main{
@@ -53,7 +76,7 @@ h3{
     display: grid;
 }
 .career li{
-margin: 32px 0 auto;
+    margin: 32px 0 auto;
 }
 ul{
     padding-inline-start:0
@@ -65,11 +88,11 @@ li{
     margin-top: 32px;
 }
 .box-colum-L .btn{
-    color: #0699A6;
+    color: var(--ligth-color);
 }
 .box-colum-L .btn:hover{
-    background-color: #0699A6;
-    color: #ffff;
+    background-color: var(--text-color);
+    color: var(--ligth-color);
 }
 .box-colum-R{
     width: 635px;
@@ -79,7 +102,7 @@ li{
     height: 8px;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #0699A6;
+    background-color: var(--title-color);
     align-self: flex-start;
 }
 .title-data{
@@ -87,12 +110,13 @@ li{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: -22px;
+    color: var(--color-style);
 }
 .footer{
     max-width: 100%;
     height: auto;
     padding: 26px;
-    background: #F5F3F0;
+    background: var(--color-style);
     display: flex;
     margin: 0 auto;
     margin-top: 40px;
@@ -104,15 +128,15 @@ li{
 }
 .foot-content h2{
     font-size: 66px;
+    color: var(--backgroud-main);
 }
 .foot-content .btn{
-    color: #0699A6;
+    color: var(--backgroud-main);
     margin: 0 auto;
     font-size: 36px;
 }
 .foot-content .btn:hover{
-    background-color: #0699A6;
-    color: #ffff;
+    color: var(--ligth-color);
 }
 .footer .container{
     flex-direction: column;
@@ -125,6 +149,30 @@ li{
 }
 .foot-icon .btn{
     margin: 16px;
+}
+.btn1{
+    background-image: url(../img/icons-black/facebook.png);
+}
+.btn1:hover{
+    background-image: url(../img/icons-white/facebook\ \(1\).png);
+}
+.btn2{
+    background-image: url(../img/icons-black/instagram.png);
+}
+.btn2:hover{
+    background-image: url(../img/icons-white/instagram\ \(1\).png);
+}
+.btn3{
+    background-image: url(../img/icons-black/linkedin.png);
+}
+.btn3:hover{
+    background-image: url(../img/icons-white/linkedin\ \(1\).png);
+}
+.btn4{
+    background-image: url(../img/icons-black/Icons.png);
+}
+.btn4:hover{
+    background-image: url(../img/icons-white/Icons\ \(1\).png);
 }
 @media screen and (max-width:1023px){
     .header{

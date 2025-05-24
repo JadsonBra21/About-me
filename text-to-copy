@@ -1,6 +1,11 @@
 
 
 
+    var(--color-style)
+
+    var(--background-div)
+
+    var(--title-color)
 
 
 
