@@ -26,6 +26,11 @@ body{
     margin: 0 auto;
     justify-content: space-between;
 }
+.img-profile{
+    width: 574px;
+    border-radius: 50%;
+    border: 3px solid var(--backgroud-main);
+}
 .main .container{
     margin-top: 60px;
 }
@@ -34,6 +39,7 @@ body{
 .content{
     margin: 0 auto;
     margin-left: 30px;
+    padding: 15px;
 }
 h2{
     color: var(--ligth-color);
@@ -76,12 +82,15 @@ h3{
     display: grid;
 }
 .career li{
+    list-style-type: circle;
     margin: 32px 0 auto;
+    margin-left: 15px;
 }
 ul{
     padding-inline-start:0
 }
 li{
+    margin-top: 15px;
     list-style-type: none;
 }
 .box-colum-L{
@@ -97,6 +106,18 @@ li{
 .box-colum-R{
     width: 635px;
 }
+.Experience{
+    background-color: var(--color-style);
+    padding: 20px;
+    font-size: large;
+    color: var(--ligth-color);
+}
+.Experience:hover{
+    background-color: var(--color-style);
+    padding: 20px;
+    font-size: large;
+    color: var(--ligth-color);
+}
 .border{
     width: 60px;
     height: 8px;
@@ -109,8 +130,23 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: -22px;
     color: var(--color-style);
+}
+.container-project{
+    margin: 
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+.content-card{
+    display: flex;
+    flex-direction: row;
+}
+.content-card .btn{
+    text-decoration: none;
+    color: var(--color-style);  
 }
 .footer{
     max-width: 100%;
